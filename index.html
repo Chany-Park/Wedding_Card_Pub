@@ -166,7 +166,62 @@
 		▫<br>
 		▫<br>
 		▫<br>	
+		
+		
+
+	
+
+		<center><p><br> (Click) <br></p></center>
+
+		
+
 			
+
+		<p><button onclick="copyToClipboard_chan('신한 110442082586')"><img src="img/skin/groom.png" style="width:50px;height:50px;"><br>찬영</button>
+
+		<button onclick="copyToClipboard_su('토스뱅크 100027119341')"><img src="img/skin/bride.png" style="width:50px;height:50px;"><br> 수연</button></p>
+
+		
+
+	<script type='text/javascript''>
+
+	function copyToClipboard_chan(elementId) {
+
+  		var aux = document.createElement("textarea");
+
+  		document.body.appendChild(aux);
+
+		aux.value = elementId;
+
+  		aux.select();
+
+  		document.execCommand("copy");
+
+  		document.body.removeChild(aux);
+
+  		alert('박찬영 님의 계좌번호가 복사되었습니다.');
+
+	}
+
+	function copyToClipboard_su(elementId) {
+
+  		var aux = document.createElement("textarea");
+
+  		document.body.appendChild(aux);
+
+		aux.value = elementId;
+
+  		aux.select();
+
+  		document.execCommand("copy");
+
+  		document.body.removeChild(aux);
+
+  		alert('정수연 님의 계좌번호가 복사되었습니다.');
+
+	}								 
+
+	</script>
 		<br><br><br><br><br><br>
 		<p><center> 축복해주신만큼 잘 살겠습니다. <br> 감사합니다. </center></p></footer>
 		
